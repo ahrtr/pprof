@@ -6,6 +6,10 @@ import (
 	"runtime"
 )
 
+/*
+   This file is mainly extracted from etcd's source code.
+*/
+
 const pprofHTTPPrefix = "/debug/pprof"
 
 // pprofHandlers returns a map of pprof handlers keyed by the HTTP path.
