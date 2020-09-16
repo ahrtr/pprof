@@ -12,7 +12,7 @@ s := &http.Server{
 }
 ```
 
-If you want to enable runtime profiling data, then you can make the following change,
+then you can make the following change to enable the runtime profiling data,
 ```go
 import (
 	"github.com/ahrtr/pprof"
